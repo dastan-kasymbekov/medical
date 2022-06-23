@@ -2,6 +2,347 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .hero-img {
+    max-width: 470px;
+    max-height: 400px;
+  }
+
+  .hero-title {
+    font-size: 34px;
+    line-height: 61px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  .logos {
+    padding: 30px 0;
+  }
+
+  .multiple-img {
+    max-width: 450px;
+  }
+
+  .multiple-title {
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .multiple p {
+    font-size: 15px;
+  }
+
+  .multiple-btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 8px 13px 0 116px;
+  }
+
+  .multiple-link {
+    font-size: 15px;
+  }
+
+  .discover-title {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  .serving-img {
+    max-width: 450px;
+  }
+
+  .serving-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .serving-subtitle {
+    font-size: 15px;
+    opacity: 70%;
+    margin: 6px 0 0 0;
+  }
+
+  .software-img {
+    max-width: 640px;
+    left: 36%;
+    top: 5%;
+  }
+
+  .software-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .software-subtitle {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .software-btn {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+
+  input[type=range] + label {
+    left: 326px;
+  }
+
+  .col-4 {
+    width: 100%;
+    padding: 0 150px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .plan-green-circle {
+    right: 100px;
+  }
+
+  .plan-yellow-circle {
+    left: 100px;
+  }
+
+  .pricing {
+    padding: 40px 0;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .discover-img {
+    max-width: 450px;
+  }
+
+  .discover-title {
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .discover-subtitle {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+  .discover-list {
+    font-size: 15px;
+  }
+
+  .hero-title span:before {
+    width: 18px;
+    height: 8px;
+    left: -65px;
+    bottom: 11px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    z-index: 10;
+  }
+
+  .menu {
+    background: #A3799D;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  .menu-link {
+    color: #FFFFFF;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  .multiple-img {
+    max-width: 450px;
+  }
+
+  .hero-img {
+    max-width: 340px;
+  }
+
+  .header-container {
+    padding-bottom: 50px;
+  }
+
+  .btn {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .login-link {
+    margin-right: 15px;
+  }
+
+  .hero-title {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+
+  .hero-subtitle {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .hero-input {
+    padding: 10px 30px;
+    font-size: 12px;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .hero-btn {
+    padding: 7px 15px;
+    position: absolute;
+    left: 174px;
+    top: 3px;
+    width: 70px;
+    height: 30px;
+  }
+
+  .hero-title span:before {
+    display: none;
+  }
+
+  .logos-container a img {
+    max-width: 100px;
+  }
+
+  .multiple-img {
+    max-width: 300px;
+  }
+
+  .multiple-title {
+    font-size: 15px;
+  }
+  .multiple p {
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .multiple-subtitle {
+    margin: 10px 0;
+  }
+  .multiple-btn {
+    padding: 8px 11px;
+    font-size: 10px;
+    margin: 8px 14px 0 117px;
+  }
+  .multiple-link {
+    font-size: 12px;
+  }
+  .discover-img {
+    max-width: 300px;
+  }
+  .discover-title {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .discover-subtitle {
+    font-size: 10px;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .discover-list {
+    font-size: 11px;
+  }
+  .serving-img {
+    max-width: 330px;
+  }
+  .serving-subtitle {
+    font-size: 10px;
+    line-height: 19px;
+  }
+  .software-img {
+    max-width: 400px;
+    top: 20%;
+  }
+  .software-title {
+    font-size: 25px;
+  }
+  .software-subtitle {
+    font-size: 12px;
+  }
+  .software-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  .pricing-title {
+    font-size: 30px;
+  }
+  .pricing-subtitle {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .switcher-left, .switcher-right {
+    font-size: 15px;
+  }
+  .switch {
+    width: 45px;
+    height: 25px;
+  }
+  .slider:before {
+    height: 18px;
+    width: 18px;
+  }
+  .switcher {
+    margin-bottom: 12px;
+  }
+  input[type=range] + label {
+    left: 230px;
+  }
+  .col-4 {
+    padding: 0 100px;
+  }
+  .footer-col3 h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .footer-col3 a {
+    font-size: 12px;
+  }
+  .footer-col3 a img {
+    max-width: 120px;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +352,73 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.add-btn {
+  background-color: #C406D2;
+}
+
+.add-btn:hover {
+  background-color: rgb(187, 2, 199);;
+}
+
+.navbar-left {
+  min-height: 100vh;
+}
+
+.navbar-left .active {
+  position: relative;
+  background-color: #24044B;
+}
+
+.navbar-left .active:before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: rgb(187, 2, 199);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.navbar-left {
+  background-color: #3C1073;
+  min-height: 100vh;
+}
+
+.page {
+  font-family: 'Alegreya Sans', sans-serif;
+
+  .page-title {
+    color: #2C0F52;
+    margin-top: 1rem;
+  }
+
+  h1, h3, h4, {
+    text-transform: uppercase;
+  }
+}
+
+.modal-wrapper {
+  width: 100vw;
+  height: 500vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.input-error {
+  font-weight: 400;
+  color: rgb(255, 0, 0);
+  margin-top: 5px;
 }

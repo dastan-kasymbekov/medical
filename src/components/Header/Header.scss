@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+  .header {
+    div {
+      padding: 16px!important;
+    }
+    img {
+      height: 25px!important;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    div {
+      padding: 10px!important;
+    }
+    img {
+      height: 20px!important;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    div {
+      padding: 8px!important;
+    }
+    img {
+      height: 15px!important;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    div {
+      padding: 8px!important;
+    }
+    img {
+      height: 15px!important;
+    }
+  }
+}

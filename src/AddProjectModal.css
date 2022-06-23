@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    label, input, button {
+        font-size: 14px!important;
+    }
+    input {
+        padding: 8px 16px !important;
+    }
+    button {
+        padding: 8px 16px!important;
+    }
+    form .mb-4 {
+        margin-bottom: 15px!important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    label, input, button {
+        font-size: 12px!important;
+    }
+    input {
+        padding: 6px 12px !important;
+    }
+    button {
+        padding: 6px 12px!important;
+    }
+    form .mb-4 {
+        margin-bottom: 10px!important;
+    }
+}
